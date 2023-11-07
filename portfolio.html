@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="logo">
+                Portfolio.
+            </div>
+            <nav>
+                <ul id="menubar">
+                    <Li><a href="#header" onclick="closemenu()">Home</a></Li>
+                    <Li><a href="#about" onclick="closemenu()">About Us</a></Li>
+                    <Li><a href="#service" onclick="closemenu()">Services</a></Li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <Li><a href="#manas" onclick="closemenu()">Contact Us</a></Li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <div id="home">
+        <div class="home-content">
+            <div class="headertext">
+                <h1>
+                    Hii I'm Manas 
+                </h2>
+                <h1>I'm a <span class="change">Coder !</span></h1>
+            </div>
+            <div class="homephoto">
+                <img src="Assets/WhatsApp Image 2023-11-02 at 07.53.07_6bf706df.jpg" alt="photo" />
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="skill">
+            <div class="me">
+                <img src="./Assets/WhatsApp Image 2023-11-02 at 07.53.07_6bf706df.jpg" alt="photo"/>
+            </div>
+            <div class="skills">
+                <div class="skabout"  >
+                    <h1>About us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia quam necessitatibus sed,
+                        voluptatibus at harum assumenda corrupti nulla ad quasi distinctio atque id, facere maxime. Amet
+                        inventore ad obcaecati! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
+                        voluptatum!
+                    </p>
+                    <div class="written">
+                        <p class="write-div activee" onclick=" opentab('ski') ">Skills</p>
+                        <p class="write-div" onclick="  opentab('experience') ">Experience</p>
+                        <p class="write-div" onclick="  opentab('project') ">Education</p>
+                    </div>
+                    <div class="conte activetab" id="ski">
+                        <h5>UI/UX:</h5>Designer
+                        <h5>Web devlopment:</h5>Interactive Websites
+                        <h5>App Devlopment:</h5>building Websites
+                        <h5>Video editing:</h5>3d Animations
+                       
+                    </div>
+                    <div class="conte " id="experience">
+                       <h5>Internship:</h5>Bharat Intern in Web Devlopment
+                       <h5>Internship:</h5>Cod soft in Web Devlopment
+                       <h5>Training:</h5>Learn from pwskills
+                       <h5>Learning:</h5>from code with harry
+                    </div>
+                    <div class="conte " id="project">
+                       <h5>10th:</h5>Pranabandhu Bidyapitha
+                       <h5>+2:</h5>from sriram residental college
+                       <h5>Btec:</h5>Srinix college of engineering
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------- service------------ -->
+    <div id="service">
+        <div class="serve">
+            <h1>My service</h1>
+            <div class="servicelist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, veniam. Suscipit similique est
+                        laboriosam unde sit, quisquam molestiae? Similique consectetur blanditiis accusantium
+                        deleniti tenetur et </p>
+                    <a>Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX designer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, veniam. Suscipit similique est
+                        laboriosam unde sit, quisquam molestiae? Similique consectetur blanditiis accusantium
+                        deleniti tenetur et </p>
+                    <a>Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h2>Frontend Developer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, veniam. Suscipit similique est
+                        laboriosam unde sit, quisquam molestiae? Similique consectetur blanditiis accusantium
+                        deleniti tenetur et </p>
+                    <a>Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------- portfolio---------- -->
+    <div id="portfolio">
+        <div class="servee">
+            <h1> My work</h1>
+            <div class="worklist">
+                <div class="workim"><img src="./Assets/portfolio1.jpg" alt="photo" />
+                    <div class="layer">
+                        <h3>Movie App</h3>
+                        <p>Lorem ipsum dolor sit amet it lorem project file adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="workim"><img src="./Assets/portfolio5.jpg" alt="photo" />
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Lorem ipsum dolor sit amet consetur project file adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="workim"><img src="./Assets/portfolio2.jpg" alt="photo" />
+                    <div class="layer">
+                        <h3>Newsapp</h3>
+                        <p>Lorem ipsum dolor sit amet consectur project file adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">See more</button>
+        </div>
+    </div>
+     <!-- -------------------- Contact us --------------------- -->
+    <div id="manas">
+        <div class="contact1">
+            <h1>Contact me</h1>
+            <p><i class="fa-brands fa-telegram"></i></i>manasrpatra18@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>6969696969</p>
+            <div class="iicon">
+                <a href="https://www.linkedin.com/in/manas-ranjan-patra"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.telegram.com/@M"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.facebook.com/chinu.patra.948"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/devil_manas_123?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="contact2">
+            <form >
+                <input type="text" placeholder=" Name"  required>
+                <input type="password" placeholder="Phone No" required>
+                <input type="Email" placeholder="Email" required>
+                <textarea name="Message" rows="4" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn2" download>sumbit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        
+        let sidemenu = document.getElementById("menubar");
+        const openmenu = () => {
+            sidemenu.style.left = "53%";
+        }
+        const closemenu = () => {
+            sidemenu.style.left = "100%";
+        }
+        let tablinks = document.querySelectorAll(".write-div");
+        let tabcontents = document.querySelectorAll(".conte");
+        function opentab(tabname) {
+           
+            for (tablink of tablinks) {
+                tablink.classList.remove("activee");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activee");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"> </script>
+      <script>
+        var typed = new Typed(".change",{
+           strings:[" Frontend Developer !"," UI/UX Designer !","Web Developer !"],
+           typeSpeed:120,
+           backSpeed:120,
+           loop:true
+        })
+      </script>
+</body>
+</html>
